@@ -1,0 +1,18 @@
+table {
+	border: 1px solid silver;
+ }
+ td:hover { 
+    background-color: yellow;
+	color: black;
+  }
+  
+ tr, th {
+	 font-family: Oswald;
+	 background-color: gray;
+	 color: white;
+	 }
+ tr, td { 
+     font-family: Lora;
+     background-color: blue;
+	 color: white;
+ }
