@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+    <html lang = "en">
+        <!--Head-->
+        <head>
+            <meta charset = "utf-8">
+            <meta name = "viewpoint" content = "width = device-width"/>
+            <title>Alison Moloney</title>
+            <link rel = "stylesheet" type = "text/css" href = "./css/portfolio.css">
+        </head>
+
+        <!--Body-->
+        <body class = "background">
+
+            <!--Navbar-->
+            <div class = "navbar">
+                <a class = "active" href = "#home">Home</a>
+                <a href = "#about">About</a>
+                <a href = "#github">Github</a>
+                <a href = "#contact">Contact</a>
+            </div>
+
+            <!--Breaks inserted to add spaces between the navbar and the headings-->
+            <br>
+            <br>
+
+            <!--Background Video-->
+            <div id = "home">
+                <video autoplay muted loop id = "starry">
+                    <source src = "images/video/stars.mp4" type = "video/mp4">
+                    <!--Display message if video fails to play-->
+                    Your browser does not support HTML5 video
+                </video>
+            </div>
+
+            <!--Text over background video-->
+            <div class = "Video_Text">
+                <h1 class = "white-text">Welcome</h1>
+                <strong>
+                    <p class = "center">
+                        <q>Coding is today's language of creativity. All our children deserve a chance to become creators instead of consumers of computer science</q>
+                        <br> -Maria Klawe
+                        <br>
+                        <br>My name is Alison Moloney. Welcome to my portfolio website.
+                        <br>
+                     </p>
+                </strong>
+            </div>
+
+            <!--About section-->
+            <div class = "row" id = "about">
+                <!--Left column-->
+                <div class = "Column_2">
+                    <img src = "./images/profile.jpg" alt = "">
+                </div>
+
+                <!--Right column-->
+                <div class = "Column_1">
+                    <h1>About</h1>
+                    <p>
+                        <br>I am a recent graduate of <a href = "https://www.pitman-training.com/our-courses/web-developer-diploma/" target = "_blank">Pitman Training</a>'s Web 
+                        Developer Diploma, provided by The Tech Academy's Bootcamp. 
+                        <br>
+                        <br>I am trained and experienced in the following programming languages: HTML, CSS, and Javascript.
+                    </p>
+    	        </div>
+            </div>
+
+            <!--Github section-->
+            <div class = "row" id = "github">
+                <!--Left column github link-->
+                    <div class = "Column_1">
+                        <h1>Github</h1>
+                        <p>
+                            You can view my coding projects on my Github profile here:
+                            <br>
+                            <p class = "center"><a href = "https://www.github.com/Alison295/HTML-and-CSS-Projects" target="_blank">See my projects</a></p>
+                        </p>
+                    </div>
+                    <!--Right column Github logo-->
+                    <div class = "Column_2">
+                        <a href = "https://www.github.com/Alison295/HTML-and-CSS-Projects" target = "_blank"><img src = "./images/GitHub.png" alt = "Github Logo"></a>
+                    </div>
+            </div>
+
+            <!--Contact section-->
+        <div class="Row" id="Contact">
+            <!--Contact image, left column-->
+            <div class="Column_2">
+                <a href = "https://www.linkedin.com/in/alisonmoloney/" target="_blank"><img src="./images/linkedin.png" alt="Find me"></a>
+            </div>
+            <!--Contact form, right column-->
+            <div class="Column_1">
+                <h1>Contact me!</h1>
+                <!--This specifies where and how to send the form data; we are leaving it blank-->
+                <form action="" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--Footer section-->
+        <footer>
+            <p>
+                <p class="center">& 2023 Alison Moloney.
+                <br>
+            </p>
+        </footer>
+        </body>
+    </html>
